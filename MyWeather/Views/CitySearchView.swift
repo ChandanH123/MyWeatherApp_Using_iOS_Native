@@ -14,16 +14,20 @@ struct CitySearchView: View {
     
     var body: some View {
             HStack {
-                    TextField("Enter city name here", text: $citySearchInput)
-                        .font(.title2)
+                    TextField("", text: $citySearchInput)
+                    .placeholder(when: citySearchInput.isEmpty) {
+                           Text("Enter city name here").foregroundColor(.black)
+                            .frame(width: 200)
+                   }.font(.title2)
                         .keyboardType(/*@START_MENU_TOKEN@*/.default/*@END_MENU_TOKEN@*/)
                         .padding()
                         .foregroundColor(.black)
+                        
         
                 Button(action: {weatherService.city = citySearchInput //it will change the weatherService.city to latest city that user will input.
                     weatherService.getWeather(cityName: citySearchInput)
                 }, label: {
-                    Image(systemName: "magnifyingglass.circle")
+                    Image(systemName: "magnifyingglass.circle.fill")
                             .resizable()
                             .frame(width: 40, height: 40, alignment: .trailing)
                             .padding()
