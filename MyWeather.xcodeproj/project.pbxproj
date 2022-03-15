@@ -17,7 +17,6 @@
 		1757D72E27DB651D00FD19CF /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757D72D27DB651D00FD19CF /* BackgroundView.swift */; };
 		1757D73327DB7AD900FD19CF /* CurrentWeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757D73227DB7AD900FD19CF /* CurrentWeatherView.swift */; };
 		1757D73727DB87F200FD19CF /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1757D73627DB87F200FD19CF /* FooterView.swift */; };
-		1787C33C27DE093F00388169 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1787C33B27DE093F00388169 /* File.swift */; };
 		17F54BE927DCC78D00B8160E /* CitySearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17F54BE827DCC78D00B8160E /* CitySearchView.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +32,6 @@
 		1757D72D27DB651D00FD19CF /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		1757D73227DB7AD900FD19CF /* CurrentWeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherView.swift; sourceTree = "<group>"; };
 		1757D73627DB87F200FD19CF /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
-		1787C33B27DE093F00388169 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		17F54BE827DCC78D00B8160E /* CitySearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitySearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -118,7 +116,6 @@
 			isa = PBXGroup;
 			children = (
 				1757D71F27DB17D400FD19CF /* ApiCall.swift */,
-				1787C33B27DE093F00388169 /* File.swift */,
 			);
 			path = Api;
 			sourceTree = "<group>";
@@ -198,7 +195,6 @@
 				1757D72C27DB648B00FD19CF /* ContentView.swift in Sources */,
 				1757D72E27DB651D00FD19CF /* BackgroundView.swift in Sources */,
 				1757D73327DB7AD900FD19CF /* CurrentWeatherView.swift in Sources */,
-				1787C33C27DE093F00388169 /* File.swift in Sources */,
 				1757D73727DB87F200FD19CF /* FooterView.swift in Sources */,
 				17F54BE927DCC78D00B8160E /* CitySearchView.swift in Sources */,
 				1757D72027DB17D400FD19CF /* ApiCall.swift in Sources */,
